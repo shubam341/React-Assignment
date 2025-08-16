@@ -11,14 +11,14 @@ function App() {
     <div className="p-6 space-y-6">
       <h1 className="text-2xl font-bold">Assignment Demo</h1>
 
-      {/* InputField Demo */}
+     
       <InputField
         label="Username"
         placeholder="Enter your username"
         helperText="This will be visible on your profile"
       />
 
-      {/* DataTable Demo */}
+    
       <DataTable
         data={sampleData}
         columns={[
